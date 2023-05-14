@@ -27,15 +27,7 @@ import { secundaryColor } from "../LetsGo/styles";
         width: '100%',
         height: 56, 
         borderWidth: 2, 
-        borderColor: "#1C3F7C",
-        elevation: 4,
-            shadowColor: '#1C3F7C',
-            shadowOffset: {
-              width: 0,
-              height: 2.70244,
-            },
-            shadowRadius: 2.70244,
-            shadowOpacity: 0.19,      
+        borderColor: "#1C3F7C",  
         borderRadius: 32
     },
     icon:{
@@ -75,5 +67,10 @@ import { secundaryColor } from "../LetsGo/styles";
     },
     account:{
         backgroundColor: secundaryColor
+    },
+    error:{
+        textAlign: 'center',
+        color: '#ff0000',
+        fontFamily: 'Poppins_700Bold'
     }
    })

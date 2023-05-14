@@ -4,6 +4,7 @@ import Welcome from '../pages/Welcome'
 import LetsGo from '../pages/LetsGo'
 import Login from "../pages/Login";
 import NewAcconut from "../pages/NewAccount";
+import Index from '../pages/Index';
 
 const Stack = createNativeStackNavigator();
 
@@ -28,6 +29,11 @@ export default function Routes() {
             <Stack.Screen
                 name="NewAcconut"
                 component={NewAcconut}
+                options={{ headerShown: false }}
+            />
+            <Stack.Screen
+                name="Index"
+                component={Index}
                 options={{ headerShown: false }}
             />
         </Stack.Navigator>

@@ -1,14 +1,15 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, Text} from 'react-native';
+import { useRoute, useNavigation } from "@react-navigation/native";
 
-const Index = () => {
+export default function Index({ dataUser }) {
+    const route = useRoute();
     return (
         <View>
-            
+            <Text>{route.params?.dataUser.email}</Text>
         </View>
     );
 }
 
 const styles = StyleSheet.create({})
 
-export default Index;

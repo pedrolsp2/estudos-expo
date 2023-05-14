@@ -1,6 +1,6 @@
-import { initializeApp } from '@react-native-firebase/app'; 
 
-const firebaseConfig = {
+
+export const firebaseConfig = {
     apiKey: "AIzaSyDF3XjEfQUFs0h3zJHnUmLSkXd1prHaBSA",
     authDomain: "talenttrace-6e954.firebaseapp.com",
     projectId: "talenttrace-6e954",
@@ -10,6 +10,4 @@ const firebaseConfig = {
     measurementId: "G-B0G6M6X4RE"
   };
 
-const firebaseApp = initializeApp(firebaseConfig); 
 
-export { firebaseApp };
